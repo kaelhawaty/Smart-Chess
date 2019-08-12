@@ -410,3 +410,27 @@
 1545591258 source:d:\chess c++\undo.cpp
 	"Header.h"
 
+1565648285 source:c:\users\fast\smart-chess\ai.cpp
+	"Header.h"
+
+1545655578 c:\users\fast\smart-chess\header.h
+	<bits/stdc++.h>
+
+1545642603 source:c:\users\fast\smart-chess\gamecontrol.cpp
+	"Header.h"
+
+1545310977 source:c:\users\fast\smart-chess\moves.cpp
+	"Header.h"
+
+1545591258 source:c:\users\fast\smart-chess\undo.cpp
+	"Header.h"
+
+1565647745 source:c:\users\fast\smart-chess\main.cpp
+	<exception>
+	<string>
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"Header.h"
+

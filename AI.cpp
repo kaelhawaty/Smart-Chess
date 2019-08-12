@@ -1,7 +1,7 @@
 #include "Header.h"
 
 char BestMove[5];
-int z = 0;
+int z = 0, t = 0;
 float King[8][8] =  {
     { -3.0, -4.0, -4.0, -5.0, -5.0, -4.0, -4.0, -3.0},
     { -3.0, -4.0, -4.0, -5.0, -5.0, -4.0, -4.0, -3.0},
@@ -132,7 +132,13 @@ void compute(char a[8][8], int x , int y){
 }
 
 float minimax(char a[][8], int depth, int maximizing, float alpha, float beta, int depthInitial ){
-    if(depth  == 0 || isCheckmate() || (z = isStalemate())){
+    if(depth  == 0 || (t = isCheckmate()) || (z = isStalemate())){
+        if(t == 1){
+            return 9999;
+        }
+        if(t == 2){
+            return -9999;
+        }
         if(z){
             z = 0;
             return 0;
